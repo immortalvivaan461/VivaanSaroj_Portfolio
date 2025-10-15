@@ -15,7 +15,7 @@ export default function MsgForm() {
     const onSubmit = async ({ fullname, email, contact, subject, message }) => {
         setLoading(true);
         try {
-            const res = await axios.post("https://portfolio-backend-9djt.onrender.com/api/send-message", {
+            const res = await axios.post("https://portfolio-backend-neon-seven.vercel.app/api/send-message", {
                 fullname,
                 email,
                 contact,
