@@ -1,0 +1,8 @@
+*{
+  /* padding: 0px;
+  margin: 0%; */
+  box-sizing: border-box;
+}
+
+@import "tailwindcss";
+@import '@fortawesome/fontawesome-free/css/all.min.css';
